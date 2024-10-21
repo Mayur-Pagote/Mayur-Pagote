@@ -20,3 +20,4 @@ You can click the Preview link to take a look at your changes.
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mayur-Pagote&theme=github_dark" />
 </div>
  
+![An image of @mayurpagote's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mayurpagote)
