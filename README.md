@@ -1,6 +1,7 @@
 <!--- RGB Strip thin --->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
+<!--- Description --->
 - 👋 Hi, I’m @Mayur-Pagote
 - 👀 I’m interested in CS, Python, C, C++, Technology
 - 🌱 I’m currently learning Computer Science
@@ -11,6 +12,7 @@ Mayur-Pagote/Mayur-Pagote is a ✨ special ✨ repository because its `README.md
 You can click the Preview link to take a look at your changes.
 --->
 
+<!--- Wave Animation --->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
 
 
