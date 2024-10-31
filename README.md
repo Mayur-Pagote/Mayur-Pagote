@@ -23,8 +23,6 @@
 </div>
 
 
- <!--- Holopin Badges--->
-![An image of @mayurpagote's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mayurpagote)
 
 
 <!---
