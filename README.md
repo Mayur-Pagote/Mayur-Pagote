@@ -4,7 +4,7 @@
 
 <!--- Description --->
 - 👋 Hi, I’m @Mayur-Pagote
-- 👀 I’m interested in CS, Python, C, C++, Technology
+- 👀 I’m interested in Computer Technology
 - 🌱 I’m currently learning Computer Science
 - 🌟 I have also created some projects, which you can check out in my repositories.
 
