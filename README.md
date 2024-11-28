@@ -5,7 +5,6 @@
 - 👋 Hi, I’m Mayur
 - 👀 I’m interested in Computer Technology
 - 🌱 I’m currently learning Computer Science
-- 🌟 I have also created some projects, which you can check out in my repositories.
 
 <!--- Wave Animation --->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
