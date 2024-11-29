@@ -6,8 +6,7 @@
 - 👀 I’m interested in Computer Technology
 - 🌱 I’m currently learning Computer Science
 
-<!--- Wave Animation --->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
+
 
 <!--- Summary Cards --->
 <div align="center">
@@ -18,6 +17,9 @@
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mayur-Pagote&theme=github_dark" />
      <img src="https://github-readme-streak-stats.herokuapp.com?user=Mayur-Pagote&theme=transparent&hide_border=true&" align="center" />
 </div>
+
+<!--- Wave Animation --->
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
 
 <!---
 Mayur-Pagote/Mayur-Pagote is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
