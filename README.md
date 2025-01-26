@@ -6,8 +6,6 @@
 - 👀 I’m interested in Computer Technology
 - 🌱 I’m currently learning Computer Science
 
-
-
 <!--- Summary Cards --->
 <div align="center">
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mayur-Pagote&theme=github_dark" />
