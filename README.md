@@ -1,6 +1,7 @@
 <!--- RGB Strip thin --->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
+
 <!--- Description --->
 - 👋 Hi, I’m Mayur P
 - 👀 I’m interested in Computer Technology
@@ -16,11 +17,25 @@
      <img src="https://github-readme-streak-stats.herokuapp.com?user=Mayur-Pagote&theme=transparent&hide_border=true&" align="center" />
 </div>
 
-<!--- Wave Animation --->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
+
 
 <!---
 Mayur-Pagote/Mayur-Pagote is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
 <img src="https://profile-counter.glitch.me/%7BMayur-Pagote10%7D/count.svg" alt="visitor badge"/>
+
+
+
+
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Mayur-Pagote&utm_content=line">
+  <img
+    src="https://render.gitanimals.org/lines/Mayur-Pagote"
+    width="600"
+    height="200"
+  />
+</a>
+  
+
+<!--- Wave Animation --->
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=1283D1&height=80&section=footer"/>
