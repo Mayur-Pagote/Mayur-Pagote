@@ -29,12 +29,12 @@ You can click the Preview link to take a look at your changes.
 
 
 
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Mayur-Pagote&utm_content=line">
-  <img
-    src="https://render.gitanimals.org/lines/Mayur-Pagote?pet-id=673811466197760856"
-    width="600"
-    height="120"
-  />
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Mayur-Pagote&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/Mayur-Pagote"
+  width="600"
+  height="300"
+/>
 </a>
   
   
