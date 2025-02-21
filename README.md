@@ -25,10 +25,6 @@ You can click the Preview link to take a look at your changes.
 --->
 <img src="https://profile-counter.glitch.me/%7BMayur-Pagote10%7D/count.svg" alt="visitor badge"/>
 
-
-
-
-
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Mayur-Pagote&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/Mayur-Pagote"
