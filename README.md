@@ -3,7 +3,7 @@
 
 
 <!--- Description --->
-- 👋 Hi, I’m Mayur P
+- 👋 Hi, I’m Mayur
 - 👀 I’m interested in Computer Technology
 - 🌱 I’m currently learning Computer Science
 
