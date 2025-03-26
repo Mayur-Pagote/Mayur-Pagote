@@ -3,7 +3,7 @@
 
 
 <!--- Description --->
-- 👋 Hi, I’m Mayur
+- 👋 Hi, I’m Mayur, a Aspire Institute Graduate
 - 👀 I’m interested in Computer Technology
 - 🌱 I’m currently learning Computer Science
 
