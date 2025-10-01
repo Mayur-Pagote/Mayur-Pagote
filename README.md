@@ -22,7 +22,7 @@
 Mayur-Pagote/Mayur-Pagote is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-<img src="https://profile-counter.glitch.me/%7BMayur-Pagote10%7D/count.svg" alt="visitor badge"/>
+<img src="https://komarev.com/ghpvc/?username=Mayur-Pagote&style=for-the-badge"/>
 
 <div align="center">
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Mayur-Pagote&utm_content=farm">
