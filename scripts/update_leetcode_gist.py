@@ -68,34 +68,32 @@ def fetch_leetcode_stats(username):
         "ranking": ranking
     }
 
-def make_bar(percent, bar_len=20):
+def make_bar(percent, bar_len=18):
     filled = round((percent / 100.0) * bar_len)
     filled = max(0, min(bar_len, filled))
     return "█" * filled + "░" * (bar_len - filled)
 
 def generate_content(stats):
     ranking_str = f"Rank #{stats['ranking']:,}" if stats['ranking'] else ""
-    header_title = "LeetCode Stats"
-    header_space = 52 - len(header_title) - len(ranking_str)
+    header_title = "Problems Solved"
+    header_space = 50 - len(header_title) - len(ranking_str)
     header_line = header_title + (" " * max(1, header_space)) + ranking_str
 
-    rows = []
-    rows.append(header_line)
-    rows.append("─" * 52)
+    rows = [header_line]
 
     categories = [
-        ("Easy", "Easy"),
-        ("Medium", "Medium"),
-        ("Hard", "Hard"),
-        ("Total", "All"),
+        ("🟢 Easy",   "   ", "Easy"),
+        ("🟡 Medium", " ",   "Medium"),
+        ("🔴 Hard",   "   ", "Hard"),
+        ("⚪ Total",  "  ",  "All"),
     ]
 
-    for label, key in categories:
+    for label, pad, key in categories:
         solved = stats["solved"].get(key, 0)
         total = stats["all_questions"].get(key, 1)
         pct = (solved / total * 100.0) if total else 0.0
-        bar = make_bar(pct, 20)
-        row = f"{label:<7} {solved:>5} / {total:>5}  {bar}  {pct:>5.1f}%"
+        bar = make_bar(pct, 18)
+        row = f"{label}{pad} {solved:>4} / {total:>4}  {bar}  {pct:>5.1f}%"
         rows.append(row)
 
     return "\n".join(rows) + "\n"
