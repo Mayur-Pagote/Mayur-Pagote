@@ -149,7 +149,7 @@ def update_gist(gist_id, token, content):
     filename = list(files.keys())[0] if files else "📍 Pune, India"
 
     patch_body = json.dumps({
-        "description": "📍 Pune, India — Live Time & Weather (Auto-updated)",
+        "description": "📍 Pune, India — Live Time & Weather",
         "files": {
             filename: {
                 "content": content
