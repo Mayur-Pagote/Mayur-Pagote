@@ -26,6 +26,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Update LeetCode Gist
+        run: python scripts/update_leetcode_gist.py
+        env:
+          GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
+          LEETCODE_GIST_ID: ${{ secrets.LEETCODE_GIST_ID }}
+
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
