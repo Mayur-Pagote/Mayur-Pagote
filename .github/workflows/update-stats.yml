@@ -32,6 +32,12 @@ jobs:
           GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
           LEETCODE_GIST_ID: ${{ secrets.LEETCODE_GIST_ID }}
 
+      - name: Update Weather & Status Gist
+        run: python scripts/update_weather_gist.py
+        env:
+          GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
+          WEATHER_GIST_ID: ${{ secrets.WEATHER_GIST_ID }}
+
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
