@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="195" viewBox="0 0 1024 195" fill="none">
+<style>
+/* <![CDATA[ */
+  .line-center {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+    fill: #1f2328;
+    text-anchor: middle;
+  }
+  .line-justified {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+    fill: #1f2328;
+    text-anchor: start;
+  }
+  .line-left {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+    fill: #1f2328;
+    text-anchor: start;
+  }
+/* ]]> */
+</style>
+
+<!-- Line 1: Centered -->
+<text x="512" y="25" class="line-center">Hello, I am a 21-year-old CSE student from India.</text>
+
+<!-- Paragraph 2: Block width 590px (from x=217 to x=807) -->
+<text x="217" y="65" class="line-justified" textLength="590" lengthAdjust="spacing">I have good knowledge of Python and have done DSA in C++. I also know Azure</text>
+<text x="217" y="89" class="line-justified" textLength="590" lengthAdjust="spacing">and Docker. I have hands-on experience with microcontrollers like ESP32 and</text>
+<text x="217" y="113" class="line-left">ATmega328P.</text>
+
+<!-- Paragraph 3: Block width 590px (from x=217 to x=807) -->
+<text x="217" y="151" class="line-justified" textLength="590" lengthAdjust="spacing">I have a open source project with 120+ Stars, along with that I am Azure</text>
+<text x="217" y="175" class="line-left">Certified.</text>
+
+</svg>

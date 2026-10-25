@@ -1,0 +1,118 @@
+<svg width="880" height="200" viewBox="0 0 880 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="desc">
+  <title>GitHub Stats — Mayur-Pagote</title>
+  <desc id="desc">GitHub contributions, streak, and activity stats for Mayur-Pagote</desc>
+  <style>
+    .bg { fill: none; stroke: none; }
+    .divider { stroke: #d0d7de; }
+    .icon { stroke: #656d76; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .icon-fill { fill: #656d76; stroke: none; }
+    .stat-label { font: 500 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #656d76; }
+    .stat-num { font: 600 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #1f2328; text-anchor: end; }
+    .big-num { font: 700 32px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #1f2328; text-anchor: middle; }
+    .section-title { font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #57606a; text-anchor: middle; letter-spacing: 0.3px; }
+    .date-label { font: 400 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #8c959f; text-anchor: middle; }
+    .streak-ring { fill: none; stroke: #57606a; stroke-width: 4; stroke-linecap: round; }
+    .streak-ring-bg { fill: none; stroke: #e1e4e8; stroke-width: 4; }
+    .flame { fill: #57606a; }
+
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: none; stroke: none; }
+      .divider { stroke: #30363d; }
+      .icon { stroke: #8b949e; }
+      .icon-fill { fill: #8b949e; }
+      .stat-label { fill: #8b949e; }
+      .stat-num { fill: #f0f6fc; }
+      .big-num { fill: #f0f6fc; }
+      .section-title { fill: #c9d1d9; }
+      .date-label { fill: #6e7681; }
+      .streak-ring { stroke: #c9d1d9; }
+      .streak-ring-bg { stroke: #21262d; }
+      .flame { fill: #c9d1d9; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <!-- Transparent background -->
+
+  <!-- ==================== COLUMN 1: OVERALL STATS (x: 20 to 255) ==================== -->
+  
+  <!-- Row 1: Total Stars -->
+  <g transform="translate(24, 23)">
+    <polygon class="icon" points="8 1.5 10.4 6.5 15.8 7.3 11.9 11.1 12.8 16.5 8 13.9 3.2 16.5 4.1 11.1 0.2 7.3 5.6 6.5 8 1.5" />
+    <text class="stat-label" x="26" y="13">Total Stars:</text>
+    <text class="stat-num" x="220" y="13">121</text>
+  </g>
+
+  <!-- Row 2: Total Commits -->
+  <g transform="translate(24, 57)">
+    <circle class="icon" cx="8" cy="8" r="3.2" />
+    <line class="icon" x1="0.5" y1="8" x2="4.8" y2="8" />
+    <line class="icon" x1="11.2" y1="8" x2="15.5" y2="8" />
+    <text class="stat-label" x="26" y="12">Total Commits:</text>
+    <text class="stat-num" x="220" y="12">1.3k</text>
+  </g>
+
+  <!-- Row 3: Total PRs -->
+  <g transform="translate(24, 91)">
+    <circle class="icon" cx="4" cy="4" r="2.2" />
+    <circle class="icon" cx="12" cy="12" r="2.2" />
+    <path class="icon" d="M 4 6.2 v 6.8" />
+    <path class="icon" d="M 8.5 4 h 1.5 a 2 2 0 0 1 2 2 v 3.8" />
+    <text class="stat-label" x="26" y="12">Total PRs:</text>
+    <text class="stat-num" x="220" y="12">112</text>
+  </g>
+
+  <!-- Row 4: Total Issues -->
+  <g transform="translate(24, 125)">
+    <circle class="icon" cx="8" cy="8" r="7.5" />
+    <line class="icon" x1="8" y1="4.5" x2="8" y2="8.5" />
+    <circle class="icon-fill" cx="8" cy="11.5" r="0.9" />
+    <text class="stat-label" x="26" y="12">Total Issues:</text>
+    <text class="stat-num" x="220" y="12">103</text>
+  </g>
+
+  <!-- Row 5: Contributed to -->
+  <g transform="translate(24, 159)">
+    <path class="icon" d="M 2.5 1.5 h 11 a 1 1 0 0 1 1 1 v 13 l -6.5 -3.5 l -6.5 3.5 v -13 a 1 1 0 0 1 1 -1 z" />
+    <text class="stat-label" x="26" y="12">Contributed to:</text>
+    <text class="stat-num" x="220" y="12">19</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line class="divider" x1="270" y1="20" x2="270" y2="180" stroke-width="1" />
+
+  <!-- ==================== COLUMN 2: TOTAL CONTRIBUTIONS (center: 380) ==================== -->
+  <text class="big-num" x="385" y="86">2,584</text>
+  <text class="section-title" x="385" y="120">Total Contributions</text>
+  <text class="date-label" x="385" y="148">Feb 26, 2024 - Present</text>
+
+  <!-- Divider 2 -->
+  <line class="divider" x1="500" y1="20" x2="500" y2="180" stroke-width="1" />
+
+  <!-- ==================== COLUMN 3: CURRENT STREAK (center: 605) ==================== -->
+  
+  <!-- Flame Icon on top of the circle -->
+  <g transform="translate(597, 24)">
+    <path class="flame" d="M7.5 0 C7.5 0 9.8 2.6 9.8 5.6 C9.8 6.9 9.1 8 8.1 8.8 C8 7.3 6.9 6.2 5.5 6.2 C4.2 6.2 3.2 7.2 3.2 8.5 C3.2 10.6 4.9 12.5 7.5 12.5 C10.8 12.5 13.5 9.8 13.5 6.5 C13.5 2.5 10 1 7.5 0 Z" />
+  </g>
+
+  <!-- Streak Progress Ring (Arc around number 784) -->
+  <circle class="streak-ring-bg" cx="605" cy="78" r="38" />
+  <!-- Arc path covering 270 degrees, with gap at top for flame -->
+  <path class="streak-ring" d="M 586 45 A 38 38 0 1 0 624 45" />
+
+  <!-- Streak Number inside circle -->
+  <text class="big-num" x="605" y="89" style="font-size: 28px;">784</text>
+
+  <text class="section-title" x="605" y="142" style="font-weight: 700;">Current Streak</text>
+  <text class="date-label" x="605" y="165">Sep 1, 2024 - Oct 24</text>
+
+  <!-- Divider 3 -->
+  <line class="divider" x1="710" y1="20" x2="710" y2="180" stroke-width="1" />
+
+  <!-- ==================== COLUMN 4: LONGEST STREAK (center: 795) ==================== -->
+  <text class="big-num" x="795" y="86">784</text>
+  <text class="section-title" x="795" y="120">Longest Streak</text>
+  <text class="date-label" x="795" y="148">Sep 1, 2024 - Oct 24</text>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="24" viewBox="0 0 1024 24" fill="none">
+<style>
+/* <![CDATA[ */
+  .divider {
+    stroke: #d0d7de;
+  }
+  @media (prefers-color-scheme: dark) {
+    .divider {
+      stroke: #30363d;
+    }
+  }
+/* ]]> */
+</style>
+<line x1="8" y1="12" x2="1016" y2="12" class="divider" stroke-width="1" />
+</svg>
