@@ -366,8 +366,13 @@ def fetch_data():
             temp = 0
 
     # PRs
+    token = os.environ.get("GITHUB_TOKEN")
+    api_headers = {"User-Agent": "Mozilla/5.0"}
+    if token:
+        api_headers["Authorization"] = f"Bearer {token}"
+
     pr_url = f"https://api.github.com/search/issues?q=is:pr+is:merged+author:{USERNAME}+-user:{USERNAME}&per_page=100"
-    pr_req = urllib.request.Request(pr_url, headers={"User-Agent": "Mozilla/5.0"})
+    pr_req = urllib.request.Request(pr_url, headers=api_headers)
     with urllib.request.urlopen(pr_req) as resp:
         pr_data = json.loads(resp.read().decode("utf-8"))
 
@@ -381,10 +386,9 @@ def fetch_data():
         repo_name = repo_url.replace("https://api.github.com/repos/", "")
         repo_counts[repo_name] = repo_counts.get(repo_name, 0) + 1
 
-    headers = {"User-Agent": "Mozilla/5.0"}
     for repo in sorted(repo_counts.keys(), key=lambda r: -repo_counts[r])[:10]:
         try:
-            r_req = urllib.request.Request(f"https://api.github.com/repos/{repo}", headers=headers)
+            r_req = urllib.request.Request(f"https://api.github.com/repos/{repo}", headers=api_headers)
             with urllib.request.urlopen(r_req) as resp:
                 r_info = json.loads(resp.read().decode("utf-8"))
                 repo_stars[repo] = r_info.get("stargazers_count", 0)
