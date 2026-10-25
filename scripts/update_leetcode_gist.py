@@ -115,7 +115,7 @@ def update_gist(gist_id, token, content):
 
     # Patch the gist
     patch_body = json.dumps({
-        "description": "📊 LeetCode Stats (Auto-updated)",
+        "description": "📊 LeetCode Stats",
         "files": {
             filename: {
                 "content": content
