@@ -38,6 +38,12 @@ jobs:
           GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
           WEATHER_GIST_ID: ${{ secrets.WEATHER_GIST_ID }}
 
+      - name: Update Random Wall Gist
+        run: python scripts/update_random_wall.py
+        env:
+          GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
+          RANDOM_WALL_GIST_ID: ${{ secrets.RANDOM_WALL_GIST_ID }}
+
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
