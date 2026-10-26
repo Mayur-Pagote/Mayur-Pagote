@@ -44,6 +44,12 @@ jobs:
           GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
           RANDOM_WALL_GIST_ID: ${{ secrets.RANDOM_WALL_GIST_ID }}
 
+      - name: Update Platform Views Gist
+        run: python scripts/update_views_gist.py
+        env:
+          GH_GIST_TOKEN: ${{ secrets.GH_GIST_TOKEN }}
+          VIEWS_GIST_ID: ${{ secrets.VIEWS_GIST_ID }}
+
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
