@@ -40,7 +40,6 @@ def get_instructables_views():
         if os.name == 'nt':
             cmd[0] = "curl.exe"
         out = subprocess.check_output(cmd, timeout=15).decode('utf-8', errors='ignore')
-        # Target the author's grand total views
         m = re.search(r'"screenName"\s*:\s*"mayurpagote"[^}]*"views"\s*:\s*(\d+)', out)
         if m:
             return int(m.group(1))
@@ -49,7 +48,7 @@ def get_instructables_views():
             return max(views)
     except Exception:
         pass
-    return 14657
+    return 14658
 
 def get_youtube_views():
     try:
@@ -79,7 +78,7 @@ def get_github_views():
             return int(m[0].replace(',', ''))
     except Exception:
         pass
-    return 7461
+    return 7464
 
 def generate_content():
     lc = get_leetcode_views()
@@ -87,14 +86,24 @@ def generate_content():
     yt = get_youtube_views()
     gh = get_github_views()
 
-    lines = [
-        "─────────────── Platform Views ───────────────",
-        f"LeetCode                      {lc:>8,} views",
-        f"Instructables               {inst:>8,} views",
-        f"YouTube                       {yt:>8,} views",
-        f"GitHub                        {gh:>8,} views"
+    # Exact 50-character width matching LeetCode Stats card
+    TARGET_WIDTH = 50
+    header = "─" * 17 + " Platform Views " + "─" * 17
+
+    platforms = [
+        ("LeetCode", lc),
+        ("Instructables", inst),
+        ("YouTube", yt),
+        ("GitHub", gh)
     ]
-    return "\n".join(lines) + "\n"
+
+    rows = [header]
+    for label, count in platforms:
+        val_str = f"{count:>9,} views"
+        spaces = TARGET_WIDTH - len(label) - len(val_str)
+        rows.append(f"{label}" + (" " * max(1, spaces)) + val_str)
+
+    return "\n".join(rows) + "\n"
 
 def update_gist(gist_id, token, content):
     headers = {
