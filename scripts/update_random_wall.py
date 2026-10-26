@@ -108,7 +108,7 @@ def update_gist(gist_id, token):
 
     # Patch the gist
     patch_body = json.dumps({
-        "description": "🎲 Random Wall (Auto-updated)",
+        "description": "🎲 Random Wall",
         "files": {
             filename: {
                 "content": selected_card
