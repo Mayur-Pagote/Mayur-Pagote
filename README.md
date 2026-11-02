@@ -24,15 +24,15 @@
 </p>
 
 <p align="center">
-  <img src="./assets/skill-python.png" width="34" height="34" alt="Python" title="Python" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/skill-cplusplus.png" width="34" height="34" alt="C++" title="C++" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/docker.svg" width="34" height="34" alt="Docker" title="Docker" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/skill-mysql.png" width="34" height="34" alt="MySQL" title="MySQL" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/skill-git.png" width="34" height="34" alt="Git" title="Git" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/skill-github.png" width="34" height="34" alt="GitHub" title="GitHub" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/skill-prometheus.png" width="34" height="34" alt="Prometheus" title="Prometheus" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/skill-grafana.png" width="34" height="34" alt="Grafana" title="Grafana" />&nbsp;&nbsp;&nbsp;
-  <img src="./assets/skill-arduino.png" width="34" height="34" alt="Arduino" title="Arduino" />
+  <img src="./assets/skill-python.png" width="50" height="50" alt="Python" title="Python" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/skill-cplusplus.png" width="50" height="50" alt="C++" title="C++" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/docker.svg" width="50" height="50" alt="Docker" title="Docker" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/skill-mysql.png" width="50" height="50" alt="MySQL" title="MySQL" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/skill-git.png" width="50" height="50" alt="Git" title="Git" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/skill-github.png" width="50" height="50" alt="GitHub" title="GitHub" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/skill-prometheus.png" width="50" height="50" alt="Prometheus" title="Prometheus" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/skill-grafana.png" width="50" height="50" alt="Grafana" title="Grafana" />&nbsp;&nbsp;&nbsp;
+  <img src="./assets/skill-arduino.png" width="50" height="50" alt="Arduino" title="Arduino" />
 </p>
 
 <br />
